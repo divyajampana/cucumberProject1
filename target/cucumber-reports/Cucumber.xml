@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="23.700015">
+<testcase classname="Login feature" name="Login Error Message - 1" time="5.758412">
+<system-out><![CDATA[Given Launch Salesforce Application.........................................passed
+When Enter User Name........................................................passed
+And Clear Password field....................................................passed
+Then Click on Log in button.................................................passed
+And Error message displayed.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login feature" name="Login To SalesForce -2" time="7.669472">
+<system-out><![CDATA[Given Launch Salesforce Application.........................................passed
+When Enter User Name........................................................passed
+And Enter Password..........................................................passed
+Then Click on Log in button.................................................passed
+And Home page displayed.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login feature" name="Test the remember username check box" time="10.272131">
+<system-out><![CDATA[Given Launch Salesforce Application.........................................passed
+When Enter User Name........................................................passed
+And Enter Password..........................................................passed
+And check remember Me checkbox..............................................passed
+Then Click on Log in button.................................................passed
+And Log out of SFDC.........................................................passed
+And Check for Username field................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
